@@ -1,0 +1,38 @@
+.underline-head {
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+}
+.signup p{
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.signup p input{
+  width: 30rem;
+  margin-top: 0.3rem;
+  border-radius: 0.3rem;
+  border: 0.05em solid black;
+  padding: 0.2rem 0.4rem;
+}
+.errorlist{  
+  list-style: none;
+  color: red;
+}
+.login-or{
+  width: 20rem;
+  margin: auto;
+}
+.line-or{
+  background:
+    linear-gradient(#000 0 0) left,
+    linear-gradient(#000 0 0) right;
+  background-size: 42% 1px;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+@media screen and (max-width:650px) {
+  .signup p input{
+    width: auto;
+  }
+}
